@@ -1,0 +1,183 @@
+ul{
+    list-style: none;
+}
+button{
+    background-color: #4e75ff;
+    border: none;
+    color: #fff;
+}
+button:hover,
+button:focus{
+    cursor: pointer;
+    background-color: #6c8cff;;
+}
+
+/* Task 1 */
+#categories{
+    display: flex;
+    border-radius: 8px;
+        padding: 24px;
+        width: 440px;
+        height: 888px;
+        background-color: #fff;;
+        flex-direction: column;
+        list-style: none;
+        margin: 24px;
+        padding: 0;
+}
+.h2task1{
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.item-animal{
+            background-color: #f6f6fe;
+                border-radius: 8px;
+                padding: 16px;
+                width: 392px;
+margin-bottom: 24px;
+
+}
+.item-prod{
+    border-radius: 8px;
+        padding: 16px;
+        width: 392px;
+        height: 216px;
+        background-color: #f6f6fe;
+        margin-bottom: 24px;
+
+}
+.item-tech{
+    border-radius: 8px;
+        padding: 16px;
+        width: 392px;
+        height: 312px;
+        background-color: #f6f6fe;
+
+}
+.ulitem{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+            margin-bottom: 24px;
+            padding: 0;
+        }
+.underitem{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px 16px; 
+}
+
+/* Task 2 */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    list-style: none;
+    padding: 0;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.gallery-item {
+        flex: 0 0 calc((100% - 48px) / 3);
+        box-sizing: border-box;
+    }
+
+
+.gallery-item img {
+height: 300px;
+    display: block;
+    object-fit: cover;
+}
+/* Task 3 */
+#name-input{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    width: 360px;
+    max-height: 40px;
+        padding: 8px 16px;
+        margin: 24px 24px 16px;
+}
+#name-output{
+    font-weight: 600;
+        font-size: 24px;
+    
+        /* line-height: 32px; */
+        line-height: 1.33333;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+.h1task3{
+    margin: 0 24px;
+}
+.inputtask4:active::placeholder{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+content: "Type area";
+
+}
+/* Task 4 */
+.login-form {
+
+display: flex;
+flex-direction: column;
+margin: 24px 24px;
+
+}
+.labeltask4{
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 8px;
+}
+.inputtask4{
+    width: 360px;
+    height: 40px;
+}
+.btntask4{
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 86px;
+        height: 40px;
+        background-color: #4e75ff;
+        font-weight: 500;
+            font-size: 16px;
+        
+            /* line-height: 24px; */
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+            border: none;
+            margin-top: 16px;
+}
+/* Task 5 */
+.widget{
+    margin: 100px 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.change-color{
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 148px;
+        height: 40px;
+}
