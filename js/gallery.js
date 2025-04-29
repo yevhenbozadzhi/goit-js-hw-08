@@ -87,8 +87,9 @@ galleryList.innerHTML = galleryItems;
 galleryList.addEventListener('click', (event) => {
   event.preventDefault();
 
-  const target = event.target.closest('img');
-  if (!target) return;
+  if (!event.target.matches('img'))
+    return;
+
 
   const originalSrc = target.querySelector('img').dataset.source;
   const description = target.querySelector('img').alt;
