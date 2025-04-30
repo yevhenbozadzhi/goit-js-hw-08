@@ -87,12 +87,11 @@ galleryList.innerHTML = galleryItems;
 galleryList.addEventListener('click', (event) => {
   event.preventDefault();
 
-  if (!event.target.matches('img'))
+  if (!event.target.classList.contains('gallery-image'))
     return;
 
-
-  const originalSrc = target.querySelector('img').dataset.source;
-  const description = target.querySelector('img').alt;
+  const originalSrc = event.target.dataset.source;
+  const description = event.target.addEventListener;
 
   const lightbox = basicLightbox.create(`
     <img src="${originalSrc}" alt="${description}">
